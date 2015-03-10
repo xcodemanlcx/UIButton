@@ -14,6 +14,10 @@
 		1820320B19FA875C00AE7CAB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1820320A19FA875C00AE7CAB /* Images.xcassets */; };
 		1820320E19FA875C00AE7CAB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1820320C19FA875C00AE7CAB /* LaunchScreen.xib */; };
 		1820321A19FA875C00AE7CAB /* UIButtonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1820321919FA875C00AE7CAB /* UIButtonTests.m */; };
+		183660251A6522FB00327959 /* ResizableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183660241A6522FB00327959 /* ResizableViewController.m */; };
+		183660271A6523F000327959 /* longTopShortBottom@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183660261A6523F000327959 /* longTopShortBottom@2x.png */; };
+		183660291A652BE700327959 /* common_bt_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183660281A652BE700327959 /* common_bt_normal@2x.png */; };
+		185B57401AAEE5A500CBB047 /* File in Resources */ = {isa = PBXBuildFile; fileRef = 185B573F1AAEE5A500CBB047 /* File */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,11 @@
 		1820321319FA875C00AE7CAB /* UIButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1820321819FA875C00AE7CAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1820321919FA875C00AE7CAB /* UIButtonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIButtonTests.m; sourceTree = "<group>"; };
+		183660231A6522FB00327959 /* ResizableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizableViewController.h; sourceTree = "<group>"; };
+		183660241A6522FB00327959 /* ResizableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizableViewController.m; sourceTree = "<group>"; };
+		183660261A6523F000327959 /* longTopShortBottom@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "longTopShortBottom@2x.png"; sourceTree = "<group>"; };
+		183660281A652BE700327959 /* common_bt_normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "common_bt_normal@2x.png"; sourceTree = "<group>"; };
+		185B573F1AAEE5A500CBB047 /* File */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +90,15 @@
 		182031FC19FA875C00AE7CAB /* UIButton */ = {
 			isa = PBXGroup;
 			children = (
+				183660261A6523F000327959 /* longTopShortBottom@2x.png */,
+				183660281A652BE700327959 /* common_bt_normal@2x.png */,
 				1820320119FA875C00AE7CAB /* AppDelegate.h */,
 				1820320219FA875C00AE7CAB /* AppDelegate.m */,
 				1820320419FA875C00AE7CAB /* ViewController.h */,
 				1820320519FA875C00AE7CAB /* ViewController.m */,
+				183660231A6522FB00327959 /* ResizableViewController.h */,
+				183660241A6522FB00327959 /* ResizableViewController.m */,
+				185B573F1AAEE5A500CBB047 /* File */,
 				1820320719FA875C00AE7CAB /* Main.storyboard */,
 				1820320A19FA875C00AE7CAB /* Images.xcassets */,
 				1820320C19FA875C00AE7CAB /* LaunchScreen.xib */,
@@ -200,7 +214,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				1820320919FA875C00AE7CAB /* Main.storyboard in Resources */,
+				183660291A652BE700327959 /* common_bt_normal@2x.png in Resources */,
+				185B57401AAEE5A500CBB047 /* File in Resources */,
 				1820320E19FA875C00AE7CAB /* LaunchScreen.xib in Resources */,
+				183660271A6523F000327959 /* longTopShortBottom@2x.png in Resources */,
 				1820320B19FA875C00AE7CAB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,6 +236,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183660251A6522FB00327959 /* ResizableViewController.m in Sources */,
 				1820320619FA875C00AE7CAB /* ViewController.m in Sources */,
 				1820320319FA875C00AE7CAB /* AppDelegate.m in Sources */,
 				1820320019FA875C00AE7CAB /* main.m in Sources */,
@@ -412,6 +430,7 @@
 				1820321F19FA875C00AE7CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1820322019FA875C00AE7CAB /* Build configuration list for PBXNativeTarget "UIButtonTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +439,7 @@
 				1820322219FA875C00AE7CAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

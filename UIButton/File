@@ -1,0 +1,6 @@
+1、 UIView作为UIButton的父视图时，子视图UIImage、UILabel 对 父视图 UIButton的触发范围无影响
+（tableview的cell为UIButton的父视图时，UIImage会影响UIButton的触发范围）;
+*ViewController；
+
+2、UIButton 使用拉伸图片；
+*ResizableViewController；
